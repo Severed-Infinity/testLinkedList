@@ -1,0 +1,20 @@
+﻿Build started 11/10/2014 2:09:32 PM.
+     1>Project "c:\Users\david\documents\visual studio 2013\Projects\testLinkedList\testLinkedList\testLinkedList.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt test.cpp
+         test.cpp
+     1>c:\users\david\documents\visual studio 2013\projects\testlinkedlist\testlinkedlist\linkedlist.h(19): error C2143: syntax error : missing ';' before '<'
+                 c:\users\david\documents\visual studio 2013\projects\testlinkedlist\testlinkedlist\linkedlist.h(36) : see reference to class template instantiation 'LinkedList<T>' being compiled
+     1>c:\users\david\documents\visual studio 2013\projects\testlinkedlist\testlinkedlist\linkedlist.h(19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\david\documents\visual studio 2013\projects\testlinkedlist\testlinkedlist\linkedlist.h(19): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\david\documents\visual studio 2013\projects\testlinkedlist\testlinkedlist\linkedlist.h(20): error C2143: syntax error : missing ';' before '<'
+     1>c:\users\david\documents\visual studio 2013\projects\testlinkedlist\testlinkedlist\linkedlist.h(20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\david\documents\visual studio 2013\projects\testlinkedlist\testlinkedlist\linkedlist.h(20): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\david\documents\visual studio 2013\projects\testlinkedlist\testlinkedlist\linkedlist.h(34): error C2760: syntax error : expected '{' not '}'
+                 c:\users\david\documents\visual studio 2013\projects\testlinkedlist\testlinkedlist\linkedlist.h(34) : see reference to class template instantiation 'LinkedList<T>::Node<T>' being compiled
+     1>c:\users\david\documents\visual studio 2013\projects\testlinkedlist\testlinkedlist\linkedlist.h(22): fatal error C1004: unexpected end-of-file found
+     1>Done Building Project "c:\Users\david\documents\visual studio 2013\Projects\testLinkedList\testLinkedList\testLinkedList.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.49
